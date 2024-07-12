@@ -18,7 +18,7 @@ function App() {
     useEffect(() => {
         const getData = async () => {
             try {
-                const response = await axios.get("https://wedding-9b430-default-rtdb.firebaseio.com/.json")
+                const response = await axios.get("https://wedding-v3-default-rtdb.europe-west1.firebasedatabase.app/.json")
 
                 const guestsArray = []
 
